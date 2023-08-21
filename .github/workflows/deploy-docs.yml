@@ -34,6 +34,12 @@ jobs:
           node-version: 18
           cache: pnpm
 
+      - name: 拉取文档仓库
+        use: actions/checkout@v3
+        with:
+          repository: https://github.com/XiaoSheBRO/docs
+          path: src/docs
+
 
       - name: 构建文档
         env:
