@@ -37,7 +37,7 @@ jobs:
       - name: 拉取文档仓库
         uses: actions/checkout@v3
         with:
-          repository: https://github.com/XiaoSheBRO/docs
+          repository: XiaoSheBRO/docs
           path: src/docs
 
 
