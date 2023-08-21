@@ -33,7 +33,7 @@ export function readDocTree() {
   const rowTree = directoryTree(
     rootDir,
     {
-      exclude: /(\.vuepress|resume|archive|utils|README\.md|\.git)/, // 排除项
+      exclude: /(resume|archive|utils|README\.md|\.vuepress|\.git$)/, // 排除项
       extensions: /\.md$/, // 只匹配md
       normalizePath: true, // 路径符转换(\ => /)
       attributes: ['type'], //可选字段
@@ -42,7 +42,7 @@ export function readDocTree() {
     callback
   )
   const docsTree = rowTree.children.find((element) => element.text === 'docs') // 取出docs目录
-  const exDocs = rowTree.children.filter((element) => element.text !== 'docs') 
+  const exDocs = rowTree.children.filter((element) => element.text !== 'docs')
   const result = { '/': [...docsTree.children, ...exDocs] }
   // console.log(JSON.stringify(result, null, 2))
   return result //忽略首页
