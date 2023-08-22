@@ -51,7 +51,7 @@ export function readDocTree() {
 function titleMatching(inputString) {
   // 要替换的字符串对
   const textReplacements = {
-    learning: '学习',
+    // learning: '学习',
     algorithm: '算法',
     Starter: '入门',
     frontend: '前端',
