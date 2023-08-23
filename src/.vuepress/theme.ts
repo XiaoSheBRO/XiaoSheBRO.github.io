@@ -14,7 +14,7 @@ export default hopeTheme(
     },
     // favicon: string  //站点图标
     logo: '/logo.svg',
-    repo: 'XiaoSheBRO/vuepress-note-hope-dev',
+    repo: 'XiaoSheBRO/XiaoSheBRO.github.io',
 
     // navbarAutoHide: "always" | "mobile" | "none", // 向下滚动时自动隐藏导航栏
     navbar, // 顶部链接
