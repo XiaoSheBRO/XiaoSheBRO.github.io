@@ -35,6 +35,7 @@
     "sider",
     "pnpm",
     "antd",
-    "vant"
+    "vant",
+    "vuepress"
   ],
 }
