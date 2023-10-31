@@ -17,6 +17,7 @@
     "directory-tree": "^3.5.1",
     "echarts": "^5.4.3",
     "flowchart.ts": "^1.0.1",
+    "katex": "^0.16.9",
     "mathjax-full": "^3.2.2",
     "mermaid": "^10.6.0",
     "reveal.js": "^5.0.1",
