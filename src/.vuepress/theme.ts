@@ -40,6 +40,9 @@ export default hopeTheme({
   },
 
   plugins: {
+    shiki: {
+      theme: "dracula-soft",
+    },
     searchPro: {
       indexContent: true // 索引全部内容
     },
