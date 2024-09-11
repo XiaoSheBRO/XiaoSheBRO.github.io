@@ -11,7 +11,7 @@
     "docs:update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vue/repl": "^4.4.1",
+    "@vue/repl": "4.3.1",
     "@vuepress/bundler-vite": "2.0.0-rc.14",
     "chart.js": "^4.4.1",
     "directory-tree": "^3.5.1",
