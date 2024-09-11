@@ -1,6 +1,6 @@
-# play around
+# Play Around
 
-::: normal-demo # 井字棋
+::: normal-demo 井字棋
 
 ```html
 <div class="container">
@@ -96,7 +96,7 @@ function resetBoard() {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 24px;
+  font-size: 44px;
   border: 1px solid black;
   cursor: pointer;
 }
