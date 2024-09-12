@@ -20,6 +20,20 @@ export default defineUserConfig({
         href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&display=swap',
         rel: 'stylesheet'
       }
+    ],
+    [
+      'link',
+      {
+        href: 'https://chinese-fonts-cdn.deno.dev/packages/dyh/dist/SmileySans-Oblique/result.css',
+        rel: 'stylesheet'
+      }
+    ],
+    [
+      'link',
+      {
+        href: 'https://chinese-fonts-cdn.deno.dev/packages/yozai/dist/Yozai-Bold/result.css',
+        rel: 'stylesheet'
+      }
     ]
   ]
 })
