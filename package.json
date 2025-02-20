@@ -12,18 +12,17 @@
   },
   "devDependencies": {
     "@vue/repl": "4.3.1",
-    "@vuepress/bundler-vite": "2.0.0-rc.14",
-    "chart.js": "^4.4.1",
-    "directory-tree": "^3.5.1",
-    "echarts": "^5.4.3",
-    "flowchart.ts": "^3.0.0",
-    "katex": "^0.16.9",
-    "mathjax-full": "^3.2.2",
-    "mermaid": "^10.6.1",
-    "reveal.js": "^5.0.2",
-    "vue": "^3.4.31",
-    "vuepress": "2.0.0-rc.14",
-    "vuepress-plugin-search-pro": "2.0.0-rc.52",
-    "vuepress-theme-hope": "2.0.0-rc.52"
+    "@vuepress/bundler-vite": "2.0.0-rc.19",
+    "@vuepress/plugin-slimsearch": "2.0.0-rc.74",
+    "chart.js": "^4.4.8",
+    "directory-tree": "^3.5.2",
+    "echarts": "^5.6.0",
+    "flowchart.ts": "^3.0.1",
+    "mermaid": "^11.2.0",
+    "reveal.js": "^5.1.0",
+    "sass-embedded": "^1.83.0",
+    "vue": "^3.5.13",
+    "vuepress": "2.0.0-rc.19",
+    "vuepress-theme-hope": "2.0.0-rc.71"
   }
 }
