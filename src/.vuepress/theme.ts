@@ -69,7 +69,8 @@ export default hopeTheme({
     },
     highlighter: {
       type: 'shiki',
-      theme: 'dracula-soft'
+      theme: 'dracula-soft',
+      lineNumbers: 100
     }
   },
 

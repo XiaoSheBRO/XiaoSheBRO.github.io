@@ -13,6 +13,7 @@
   "devDependencies": {
     "@vue/repl": "4.3.1",
     "@vuepress/bundler-vite": "2.0.0-rc.19",
+    "@vuepress/plugin-revealjs": "2.0.0-rc.74",
     "@vuepress/plugin-slimsearch": "2.0.0-rc.74",
     "chart.js": "^4.4.8",
     "directory-tree": "^3.5.2",

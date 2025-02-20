@@ -1,4 +1,4 @@
 import { sidebar } from 'vuepress-theme-hope'
-import { readDocTree } from '../utils/readDocTree'
+import { readDocTree } from '../utils/readDocTree.js'
 
 export default sidebar(readDocTree() as any)
