@@ -36,7 +36,7 @@ export function readDocTree() {
       exclude: /(resume|assets|_resources|utils|README\.md|\.vuepress|\.git$)/, // 排除项
       extensions: /\.md$/, // 只匹配md
       normalizePath: true, // 路径符转换(\ => /)
-      attributes: ['type'], //可选字段
+      attributes: ['type'] //可选字段
     },
     callback,
     callback
@@ -55,7 +55,7 @@ function titleMatching(inputString) {
     algorithm: '算法',
     Starter: '入门',
     frontend: '前端',
-    tools: '工具',
+    tools: '工具'
   }
   // 构建正则表达式模式，将所有要替换的字符串连接成一个以|分隔的正则
   const pattern = Object.keys(textReplacements).map(escape).join('|')

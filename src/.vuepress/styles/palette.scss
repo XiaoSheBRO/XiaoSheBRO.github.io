@@ -1,8 +1,27 @@
 // 主题色
-$theme-color: #bf9eee;
+$vp-c-accent: #bf9eee;
 // 正文
-$font-family: "Yozai, 'Noto Sans SC', sans-serif";
+$vp-c-text: (
+  light: #2c3e50,
+  dark: rgb(235 235 245 / 76%)
+);
+$vp-font: "Yozai, 'Noto Sans SC', sans-serif";
 // 标题
-$font-family-heading: "'Smiley Sans Oblique', 'Noto Sans SC', sans-serif";
+$vp-font-heading: "'Smiley Sans Oblique', 'Noto Sans SC', sans-serif";
 // 代码
-$font-family-mono: "'Source Code Pro', monospace";
+$vp-font-mono: "'Source Code Pro', monospace";
+// 正文背景色
+$vp-c-bg: (
+  light: #fff,
+  dark: #0d1117
+);
+// 边框色
+$vp-c-border: (
+  light: #eaecef,
+  dark: #30363d
+);
+// 分割线色
+$vp-c-gutter: (
+  light: #eaecef,
+  dark: #30363d
+);
