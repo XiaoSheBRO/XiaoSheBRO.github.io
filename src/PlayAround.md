@@ -25,7 +25,7 @@ let currentPlayer = 'X'
 let gameBoard = [
   ['', '', ''],
   ['', '', ''],
-  ['', '', ''],
+  ['', '', '']
 ]
 
 function makeMove(row, col) {
@@ -72,7 +72,7 @@ function resetBoard() {
   gameBoard = [
     ['', '', ''],
     ['', '', ''],
-    ['', '', ''],
+    ['', '', '']
   ]
   cells.forEach((cell) => {
     cell.textContent = ''

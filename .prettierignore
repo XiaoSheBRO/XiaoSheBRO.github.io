@@ -1,0 +1,12 @@
+node_modules
+dist
+.cache
+.temp
+
+**/*.svg
+**/*.sh
+
+public
+.npmrc
+.nvmrc
+*-lock.yaml
