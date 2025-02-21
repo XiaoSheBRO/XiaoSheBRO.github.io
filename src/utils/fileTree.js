@@ -37,7 +37,7 @@ export function fileTreeToRoutes() {
   const rowTree = directoryTree(
     rootDir,
     {
-      exclude: /(_resources|assets|\.vuepress|utils|README\.md$)/, // 排除项
+      exclude: /(resume|_resources|assets|\.vuepress|utils|README\.md$)/, // 排除项
       extensions: /\.md$/, // 只匹配md
       normalizePath: true, // 路径符转换(\ => /)
       attributes: ['type'] // 可选字段
