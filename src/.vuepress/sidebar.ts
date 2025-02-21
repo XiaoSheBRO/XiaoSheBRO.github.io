@@ -1,4 +1,4 @@
 import { sidebar } from 'vuepress-theme-hope'
-import { readDocTree } from '../utils/readDocTree.js'
+import { fileTreeToRoutes } from '../utils/fileTree.js'
 
-export default sidebar(readDocTree())
+export default sidebar(fileTreeToRoutes())
