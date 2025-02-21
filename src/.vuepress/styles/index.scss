@@ -1,1 +1,7 @@
-// place your custom styles here
+// custom styles outside of the pallette & config
+#app {
+  --code-tabs-c-hover: #282c34;
+  --code-tabs-c-text: #d5def0;
+  --code-c-bg: #282a36;
+  --code-tabs-c-bg: #2f3542;
+}
