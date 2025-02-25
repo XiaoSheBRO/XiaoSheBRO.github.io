@@ -44,6 +44,7 @@ export default hopeTheme({
     mark: true,
     sub: true,
     sup: true,
+    tasklist: true,
     align: true,
     attrs: true,
     imgLazyload: true,
