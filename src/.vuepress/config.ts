@@ -36,5 +36,9 @@ export default defineUserConfig({
         rel: 'stylesheet'
       }
     ]
-  ]
+  ],
+  // markdown-it 内置扩展设置
+  markdown: {
+    emoji: false
+  }
 })
