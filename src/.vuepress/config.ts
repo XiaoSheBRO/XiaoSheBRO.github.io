@@ -1,5 +1,8 @@
 import theme from './theme.js'
 import { defineUserConfig } from 'vuepress'
+import { getDirname, path } from 'vuepress/utils'
+
+const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig({
   theme,
@@ -40,5 +43,9 @@ export default defineUserConfig({
   // markdown-it 内置扩展设置
   markdown: {
     emoji: false
+  },
+  // 路径别名
+  alias: {
+    '@demo': path.resolve(__dirname, '../docs/_demo')
   }
 })
