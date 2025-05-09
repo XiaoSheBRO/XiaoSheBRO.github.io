@@ -1,5 +1,5 @@
 // 主题色
-$vp-c-accent: #bf9eee;
+$vp-c-accent: #ab6fff;
 // 正文
 $vp-c-text: (
   light: #2c3e50,
@@ -25,3 +25,7 @@ $vp-c-gutter: (
   light: #eaecef,
   dark: #30363d
 );
+// 侧边栏宽度
+$sidebar-width: 16rem;
+// 宽屏(>1920px )内容宽度
+$wide-content-width: 830px;
