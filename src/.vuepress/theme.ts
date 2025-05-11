@@ -32,10 +32,6 @@ export default hopeTheme(
     pageInfo: ['Author', 'Date', 'Category', 'Tag', 'Word', 'ReadingTime'],
     editLink: false,
     contributors: false,
-    metaLocales: {
-      // editLink: '在 GitHub 上编辑此页',
-      lastUpdated: '更新于'
-    },
 
     // 加密文章
     encrypt: {
