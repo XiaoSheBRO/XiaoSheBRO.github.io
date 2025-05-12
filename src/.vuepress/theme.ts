@@ -33,6 +33,10 @@ export default hopeTheme(
     editLink: false,
     contributors: false,
 
+    toc: {
+      levels: [2, 3]
+    },
+
     // 加密文章
     encrypt: {
       config: {}

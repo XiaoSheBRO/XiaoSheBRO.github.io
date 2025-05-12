@@ -5,6 +5,14 @@
   --code-c-bg: #282a36;
   --code-tabs-c-bg: #2f3542;
 
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+  }
+
   .vp-toc-item {
     height: 1.7rem;
     line-height: 1.7rem;
@@ -15,6 +23,10 @@
   }
 
   .vp-toc-link.level3 {
-    padding-inline: 20px;
+    padding-inline-start: 1rem;
+  }
+
+  .vp-toc-link.level4 {
+    padding-inline-start: 2rem;
   }
 }
