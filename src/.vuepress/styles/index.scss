@@ -5,6 +5,18 @@
   --code-c-bg: #282a36;
   --code-tabs-c-bg: #2f3542;
 
+  h1 {
+    color: var(--vp-c-accent);
+  }
+
+  h2 {
+    color: var(--vp-c-accent);
+  }
+
+  strong {
+    color: var(--vp-c-accent);
+  }
+
   h3 {
     font-size: 1.3rem;
   }
