@@ -29,4 +29,9 @@
   .vp-toc-link.level4 {
     padding-inline-start: 2rem;
   }
+
+  #toc {
+    border: var(--vp-c-accent) 2px solid;
+    box-shadow: 0 0 2px var(--vp-c-accent);
+  }
 }
